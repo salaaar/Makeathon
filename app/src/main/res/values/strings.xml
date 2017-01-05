@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Makeathon</string>
+    <string name="splash_page_text">Welcome to Makeathon</string>
+    <string name="splash_page_second_text">Makeathon</string>
 </resources>

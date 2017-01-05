@@ -22,6 +22,50 @@
             android:layout_marginTop="64dp"
             android:src="@drawable/logo_new"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_page_text"
+            android:textSize="@dimen/splash_text_size"
+            android:textColor="@color/splashTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_page_second_text"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/splash_text_size"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#34aca2"
+                android:alpha="0.8"
+                android:text="I'm new"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#355154"
+                android:alpha="0.8"
+                android:textColor="#FFFFFF"
+                android:text="Log in"/>
+
+        </LinearLayout>
+
     </LinearLayout>
+
+
 
 </FrameLayout>

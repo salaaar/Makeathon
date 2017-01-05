@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="margin_test">16dp</dimen>
+    <dimen name="splash_text_size">32sp</dimen>
+    <dimen name="splash_button_height">64dp</dimen>
 </resources>
