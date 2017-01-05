@@ -45,6 +45,7 @@
             android:orientation="horizontal"
             >
             <Button
+                android:id="@+id/activity_splash_sign_up"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -54,6 +55,7 @@
                 android:textColor="#FFFFFF"/>
 
             <Button
+                android:id="@+id/activity_splash_sign_in"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
